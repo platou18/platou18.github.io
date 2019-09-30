@@ -1,8 +1,8 @@
 gdjs.NewSceneCode = {};
 gdjs.NewSceneCode.GDLogoObjects1= [];
 gdjs.NewSceneCode.GDLogoObjects2= [];
-gdjs.NewSceneCode.GDNewObject2Objects1= [];
-gdjs.NewSceneCode.GDNewObject2Objects2= [];
+gdjs.NewSceneCode.GDButtonObjects1= [];
+gdjs.NewSceneCode.GDButtonObjects2= [];
 
 gdjs.NewSceneCode.conditionTrue_0 = {val:false};
 gdjs.NewSceneCode.condition0IsTrue_0 = {val:false};
@@ -10,7 +10,7 @@ gdjs.NewSceneCode.condition1IsTrue_0 = {val:false};
 gdjs.NewSceneCode.condition2IsTrue_0 = {val:false};
 
 
-gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDLogoObjects1Objects = Hashtable.newFrom({"Logo": gdjs.NewSceneCode.GDLogoObjects1});gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDLogoObjects1Objects = Hashtable.newFrom({"Logo": gdjs.NewSceneCode.GDLogoObjects1});gdjs.NewSceneCode.eventsList0xb4320 = function(runtimeScene) {
+gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDLogoObjects1Objects = Hashtable.newFrom({"Logo": gdjs.NewSceneCode.GDLogoObjects1});gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDLogoObjects1Objects = Hashtable.newFrom({"Logo": gdjs.NewSceneCode.GDLogoObjects1});gdjs.NewSceneCode.eventsList0xb43b0 = function(runtimeScene) {
 
 {
 
@@ -32,7 +32,7 @@ if (gdjs.NewSceneCode.condition1IsTrue_0.val) {
 }
 
 
-}; //End of gdjs.NewSceneCode.eventsList0xb4320
+}; //End of gdjs.NewSceneCode.eventsList0xb43b0
 
 
 gdjs.NewSceneCode.func = function(runtimeScene) {
@@ -40,10 +40,10 @@ runtimeScene.getOnceTriggers().startNewFrame();
 
 gdjs.NewSceneCode.GDLogoObjects1.length = 0;
 gdjs.NewSceneCode.GDLogoObjects2.length = 0;
-gdjs.NewSceneCode.GDNewObject2Objects1.length = 0;
-gdjs.NewSceneCode.GDNewObject2Objects2.length = 0;
+gdjs.NewSceneCode.GDButtonObjects1.length = 0;
+gdjs.NewSceneCode.GDButtonObjects2.length = 0;
 
-gdjs.NewSceneCode.eventsList0xb4320(runtimeScene);
+gdjs.NewSceneCode.eventsList0xb43b0(runtimeScene);
 return;
 
 }
